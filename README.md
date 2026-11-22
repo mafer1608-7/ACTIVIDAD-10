@@ -217,17 +217,17 @@ python docs/informe/graficar_csv.py registro_robot.csv
 
 | # | Prueba | Cómo | Resultado |
 |---|---|---|---|
-| 1 | Modo manual | Recorrer un cuadrado de 1 m con las teclas | _Pendiente_ |
-| 2 | Lectura de sensores | Captura de la página con todos los sensores | _Pendiente_ |
-| 3 | Precisión de la brújula | 0°, 45°, 90° … 315° contra el celular, 3 veces | _Pendiente_ |
-| 4 | Seguimiento de rumbo | Misión a 90°, 200 cm, 5 veces | _Pendiente_ |
+| 1 | Modo manual | Recorrer un cuadrado de 1 m con las teclas | Lo logra correctamente |
+| 2 | Lectura de sensores | Captura de la página con todos los sensores | Lo logra correctamente |
+| 3 | Precisión de la brújula | 0°, 45°, 90° … 315° contra el celular, 3 veces | Lo logra correctamente |
+| 4 | Seguimiento de rumbo | Misión a 90°, 200 cm, 5 veces | Lo logra correctamente |
 | 5 | Distancia | Misión de 100 cm, 5 veces, medida con cinta | 1 de 5 hecha: 102 cm medidos, error +2 cm (ver Tabla 4) |
-| 6 | Evasión | Caja de 30 × 30 cm en la ruta, 5 veces | _Pendiente_ |
-| 7 | Latencia | Pulsar ■ y medir en video hasta que frena | _Pendiente_ |
-| 8 | Alcance WiFi | Alejarse hasta perder conexión | _Pendiente_ |
-| 9 | Giro a rumbo | "Solo girar al rumbo" a 0°, 90°, 180°, 270° | _Pendiente_ |
+| 6 | Evasión | Caja de 30 × 30 cm en la ruta, 5 veces | Lo logra correctamente |
+| 7 | Latencia | Pulsar ■ y medir en video hasta que frena | Lo logra correctamente |
+| 8 | Alcance WiFi | Alejarse hasta perder conexión | Lo logra correctamente |
+| 9 | Giro a rumbo | "Solo girar al rumbo" a 0°, 90°, 180°, 270° | Lo logra parcialmente |
 
-### Tabla 4. Distancia recorrida en misión recta (valores aproximados)
+### Distancia recorrida en misión recta (valores aproximados)
 
 | Pedida (cm) | Medida (cm) | Error (cm) |
 |---|---|---|
